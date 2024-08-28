@@ -1,0 +1,14 @@
+<mat-form-field class="example-full-width">
+  @if (label) {
+  <mat-label>{{ label }}</mat-label>
+  }
+  <input
+    matInput
+    [type]="type"
+    [placeholder]="placeholder"
+    [id]="id"
+    (input)="handleInputChange($event)"
+    [value]="value"
+    [disabled]="disabled"
+  />
+</mat-form-field>

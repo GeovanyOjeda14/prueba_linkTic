@@ -1,0 +1,22 @@
+<form [formGroup]="registerForm" (ngSubmit)="register()">
+
+  <!-- Nombres -->
+  <app-form-input label="Nombres" placeholder="Geovany" formControlName="names"></app-form-input>
+  <br>
+  <!-- Apellidos -->
+  <app-form-input label="Apellidos" placeholder="Ojeda" formControlName="lastNames"></app-form-input>
+  <!-- <app-form-input formControlName=""></app-form-input>
+  <app-form-input formControlName=""></app-form-input>
+  <app-form-input formControlName=""></app-form-input>
+  <app-form-input formControlName=""></app-form-input>
+  <app-form-input formControlName=""></app-form-input> -->
+
+  <div class="">
+    <button mat-button type="submit">Registrar</button>
+  </div>
+
+</form>
+
+
+
+Nombre, apellido, numero de telefono, correo, direccion, nacionalidad.
